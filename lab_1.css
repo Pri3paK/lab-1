@@ -1,0 +1,88 @@
+html,body{
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    position: absolute;
+    left: 26%;
+    top: 20px;
+    color: white;
+    padding: 15px 5px 20px 25px;
+    border: 1px solid rgb(102, 102, 244);
+}
+input, label{
+    display: block;
+}
+label{
+    font-size: 20px;
+    margin: 5px 0px 10px 0px;
+}
+input{
+    width: 200px;
+    height: 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #000;
+    padding: 5px 60px 5px 10px;
+}
+input:focus{
+    box-shadow: 0px 0px 15px #59ff00;
+}
+.input-first-name._error, .input-last-name._error, .input-phone._error, .input-email._error,.input-place-of-living._error{
+    box-shadow: 0px 0px 10px #ff0000
+}
+.input-first-name._error:focus{
+    box-shadow: 0px 0px 15px #59ff00;
+}
+.input-last-name._error:focus{
+    box-shadow: 0px 0px 15px #59ff00;
+}
+.input-phone._error:focus{
+    box-shadow: 0px 0px 15px #59ff00;
+}
+.input-email._error:focus{
+    box-shadow: 0px 0px 15px #59ff00;
+}
+.input-place-of-living._error:focus{
+    box-shadow: 0px 0px 15px #59ff00;
+}
+#birthday{
+    padding: 5px 10px 5px 60px
+}
+button{
+    background-color: #2bff00;
+    border-radius: 20px;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 7px 12px;
+    margin: 0px 10px 0px 10px;
+}
+button:hover{
+    background-color: #3e8e41;
+}
+button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+table{
+    border: 1px solid rgb(113, 113, 255);
+    position: absolute;
+    top: 69.5%;
+    color: white;
+    font-size: 14px;
+}
+tbody{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+td, th{
+    border: 1px solid rgb(113, 113, 255);
+    padding: 10px 10px 10px 10px;
+}
+.btn1{
+    margin: 10px 35px 0px 20px;
+}

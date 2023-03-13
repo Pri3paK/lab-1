@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab_1.css" type="text/css">
+    <title>Лаь № 1</title>
+</head>
+<body>
+    <div class="form"></div>
+    <form name="userForm" id="userForm">
+        <input type="hidden" name="id" value="0" />
+        <div class="form-first-name">
+            <label for="first-name">Імя:</label>
+            <input type="text" class ='input-first-name' name="first-name" placeholder="Імя"/>
+        </div>
+        <div class="form-last-name">
+            <label for="last-name">Прізвише:</label>
+            <input type="text" class ='input-last-name' name="last-name" placeholder="Прізвише"/>
+        </div>
+        <div class="form-phone">
+            <label for="phone">Номер телефона</label>
+            <input type="text" name="phone" class="input-phone" maxlength="13" placeholder="Номер телефона">
+        </div>
+        <div class="form-email">
+            <label for="email">Електронна пошта</label>
+            <input type="email" name="email" id="email" class="input-email" placeholder="Електронна пошта">
+        </div> place-of-living
+        <div class="place-of-living">
+            <label for="place-of-living">Місце проживання</label>
+            <input type="text" name="place-of-living" class="input-place-of-living" placeholder="Місце проживання">
+        </div>
+        <div class="form-birthday">
+            <label for="birthday">Дата народження</label>
+            <input type="date" name="birthday" id="birthday" class="input-birthday">
+        </div>
+        <div class="panel-body">
+            <button class="btn1" type="submit">Зберегти</button>
+            <button class="btn1" type="reset" id="reset">Скинути</button>
+        </div>
+    </form>
+    <table class="table table-condensed table-striped table-bordered" id="table">
+        <thead>
+            <th>Id</th>
+            <th>Ім'я</th>
+            <th>Прізвише</th>
+            <th>Номер телефона</th>
+            <th>Електронна пошта</th>
+            <th>Дата народження</th>
+            <th>Місце проживання</th>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+    </script>
+    <script src="lab_1.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
